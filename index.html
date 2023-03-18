@@ -27,80 +27,11 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <style>
-        .waves {
-            transform: rotate(180deg);
-        }
-
-        div.waves {
-            width: 100%;
-            bottom: 0;
-            height: 100%;
-            z-index: 99;
-        }
-
-        .tutorial-link {
-            font-family: sans-serif;
-            text-align: center;
-            color: #f3f3f3;
-        }
-
-        .tutorial-link h2 {
-            background: linear-gradient(90deg, #00b4db 0%, #224488 50%, #0083b0 100%);
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-
-        }
-
-        .tutorial-link a {
-            text-decoration: none;
-            background: linear-gradient(90deg, #00b4db 0%, #224488 50%, #0083b0 100%);
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-
-        }
-
-        .waves svg {
-            position: absolute;
-            width: 100%;
-            bottom: 0;
-            left: 0;
-            animation-name: move-left;
-            animation-duration: 4s;
-            animation-iteration-count: infinite;
-            animation-direction: alternate;
-        }
-
-        .spacer {
-            height: 100px;
-            width: 100%;
-        }
-
-        @keyframes example {
-            0% {
-                left: 0px;
-                top: 0px;
-            }
-
-            50% {
-                left: -2000px;
-                top: 200px;
-            }
-
-            100% {
-                left: 0px;
-                top: 0px;
-            }
-        }
-    </style>
 </head>
 
 <body>
-
     <!-- Wave Container Start -->
-    <div class="waveHeader-2" style="transform: rotate(180deg)">
+    <div class="waveHeader-2" style="transform: rotate(180deg); margin-top: -30px;" style="z-index: 99;">
         <div>
             <svg class="waves-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
@@ -111,7 +42,21 @@
                 <g class="parallax">
                     <use xlink:href="#gentle-wave" x="48" y="0" fill="#eeeeee" />
                     <use xlink:href="#gentle-wave" x="48" y="3" fill="#d6d6d6" />
-                    <use xlink:href="#gentle-wave" x="48" y="5" fill="#bebebe" />
+                </g>
+            </svg>
+        </div>
+    </div>
+    <div class="waveHeader-2" style="z-index: 99;">
+        <div>
+            <svg class="waves-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave"
+                        d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="#eeeeee" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="#d6d6d6" />
                 </g>
             </svg>
         </div>
@@ -185,73 +130,6 @@
         </div>
     </div>
     <!-- Wave Container End -->
-
-
-    <!-- Wave SVG Animation Start -->
-    <div class="waves">
-        <svg width="100%" height="180px" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#ffffff" />
-                <stop offset="50%" stop-color="#ffffff" />
-                <stop offset="100%" stop-color="#ffffff" />
-            </linearGradient>
-            <path fill="url(#grad1)" d="
-                      M0 67
-                      C 273,183
-                        822,-40
-                        1920.00,106 
-                      
-                      V 359 
-                      H 0 
-                      V 67
-                      Z">
-                <animate repeatCount="indefinite" fill="url(#grad1)" attributeName="d" dur="15s" attributeType="XML"
-                    values="
-                        M0 77 
-                        C 473,283
-                          822,-40
-                          1920,116 
-                        
-                        V 359 
-                        H 0 
-                        V 67 
-                        Z; 
-            
-                        M0 77 
-                        C 473,-40
-                          1222,283
-                          1920,136 
-                        
-                        V 359 
-                        H 0 
-                        V 67 
-                        Z; 
-            
-                        M0 77 
-                        C 973,260
-                          1722,-53
-                          1920,120 
-                        
-                        V 359 
-                        H 0 
-                        V 67 
-                        Z; 
-            
-                        M0 77 
-                        C 473,283
-                          822,-40
-                          1920,116 
-                        
-                        V 359 
-                        H 0 
-                        V 67 
-                        Z
-                        ">
-                </animate>
-            </path>
-        </svg>
-    </div>
-    <!-- Wave SVG Animation End -->
 
 
     <!-- Carousel Start -->
