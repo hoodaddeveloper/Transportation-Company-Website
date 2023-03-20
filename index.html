@@ -28,35 +28,125 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <style>
-        .btn-hover {
-            width: 150px;
-            height: 43px;
-            border: none;
-            border-radius: 5px;
-            text-align: center;
-            background-size: 300% 100%;
+        @-webkit-keyframes animstart {
+            0% {
+                background-size: 100%;
+                background-image: radial-gradient(#a9d0f4 0%, #ffffff 100%);
+            }
 
-            moz-transition: all .4s ease-in-out;
-            -o-transition: all .4s ease-in-out;
-            -webkit-transition: all .4s ease-in-out;
-            transition: all .4s ease-in-out;
+            10% {
+                background-size: 100%;
+                background-image: radial-gradient(#a9d0f4 10%, #ffffff 100%);
+            }
+
+            20% {
+                background-size: 100%;
+                background-image: radial-gradient(#a9d0f4 20%, #ffffff 100%);
+            }
+
+            30% {
+                background-size: 100%;
+                background-image: radial-gradient(#a9d0f4 30%, #ffffff 100%);
+            }
+
+            40% {
+
+                background-size: 100%;
+                background-image: radial-gradient(#a9d0f4 40%, #ffffff 100%);
+            }
+
+            50% {
+                background-size: 100%;
+                background-image: radial-gradient(#a9d0f4 50%, #ffffff 100%);
+            }
+
+            60% {
+                background-size: 100%;
+                background-image: radial-gradient(#a9d0f4 60%, #ffffff 100%);
+            }
+
+            70% {
+                background-size: 100%;
+                background-image: radial-gradient(#a9d0f4 70%, #ffffff 100%);
+            }
+
+            80% {
+                background-size: 100%;
+                background-image: radial-gradient(#a9d0f4 80%, #ffffff 100%);
+            }
+
+            90% {
+                background-size: 100%;
+                background-image: radial-gradient(#a9d0f4 90%, #ffffff 100%);
+            }
+
+            100% {
+                background-size: 100%;
+                background-image: radial-gradient(#a9d0f4 100%, #ffffff 100%);
+            }
         }
 
-        .btn-hover:hover {
-            background-position: 100% 0;
-            moz-transition: all .4s ease-in-out;
-            -o-transition: all .4s ease-in-out;
-            -webkit-transition: all .4s ease-in-out;
-            transition: all .4s ease-in-out;
+        @keyframes animstart {
+            0% {
+                background-size: 100%;
+                background-image: radial-gradient(#a9d0f4 0%, #ffffff 100%);
+            }
+
+            10% {
+                background-size: 100%;
+                background-image: radial-gradient(#a9d0f4 10%, #ffffff 100%);
+            }
+
+            20% {
+                background-size: 100%;
+                background-image: radial-gradient(#a9d0f4 20%, #ffffff 100%);
+            }
+
+            30% {
+                background-size: 100%;
+                background-image: radial-gradient(#a9d0f4 30%, #ffffff 100%);
+            }
+
+            40% {
+                background-size: 100%;
+                background-image: radial-gradient(#a9d0f4 40%, #ffffff 100%);
+            }
+
+            50% {
+                background-size: 100%;
+                background-image: radial-gradient(#a9d0f4 50%, #ffffff 100%);
+            }
+
+            60% {
+                background-size: 100%;
+                background-image: radial-gradient(#a9d0f4 60%, #ffffff 100%);
+            }
+
+            70% {
+                background-size: 100%;
+                background-image: radial-gradient(#a9d0f4 70%, #ffffff 100%);
+            }
+
+            80% {
+                background-size: 100%;
+                background-image: radial-gradient(#a9d0f4 80%, #ffffff 100%);
+            }
+
+            90% {
+                background-size: 100%;
+                background-image: radial-gradient(#a9d0f4 90%, #ffffff 100%);
+            }
+
+            100% {
+                background-size: 100%;
+                background-image: radial-gradient(#a9d0f4 100%, #ffffff 100%);
+            }
         }
 
-        .btn-hover:focus {
-            outline: none;
-        }
-
-        .btn-hover.color {
-            background-image: linear-gradient(to right, #7bb1e0, #7bb1e0, #7bb1e0, #edcc4d, #7bb1e0, #7bb1e0, #7bb1e0);
-            box-shadow: 0 4px 15px 0 #7bb1e0;
+        .logo {
+            background-image: radial-gradient(#a9d0f4 0%, #ffffff 100%);
+            -webkit-animation: animstart .8s linear 0s infinite alternate both;
+            animation: animstart .8s linear 0s infinite alternate both;
         }
     </style>
 </head>
@@ -104,7 +194,9 @@
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 pt-4"
         style="z-index: 2; margin-bottom: -20px;">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <img src="img/thumbnail.png" alt="Site Logo" style="height: 100px; width: 300px;">
+            <div class="logo rounded-circle p-4 shadow">
+                <img src="img/thumbnail.png" alt="Site Logo" style="height: 100px; width: 300px;">
+            </div>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -157,7 +249,7 @@
                         d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
                 </defs>
                 <g class="parallax">
-                    <use xlink:href="#gentle-wave" x="48" y="3" fill="#ffffff" />
+                    <use xlink:href="#gentle-wave" x="48" y="9" fill="#ffffff" />
                 </g>
             </svg>
         </div>
@@ -172,7 +264,8 @@
                         d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
                 </defs>
                 <g class="parallax">
-                    <use xlink:href="#gentle-wave" x="48" y="9" fill="#6d9dc7" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="#edcc4d" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="#6d9dc7" />
                     <use xlink:href="#gentle-wave" x="48" y="3" fill="#e6b702" />
                     <use xlink:href="#gentle-wave" x="48" y="3" fill="#ffffff" />
                 </g>
