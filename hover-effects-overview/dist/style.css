@@ -1,4 +1,4 @@
-.hover {
+.hoverx {
   border: 8px solid;
   border-image: repeating-linear-gradient(135deg, #F8CA00 0 10px, #E97F02 0 20px, #BD1550 0 30px) 8;
   -webkit-mask:
@@ -8,7 +8,7 @@
   transition: .3s, -webkit-mask-position .3s .3s;
 }
 
-.hover:hover {
+.hoverx:hover {
   --_i: 100%;
   color: #CC333F;
   transition: .3s, -webkit-mask-size .3s .3s;
@@ -22,12 +22,4 @@ body {
   gap: 20px 50px;
   place-content: center;
   align-items: end;
-}
-
-h3 {
-  font-family: system-ui, sans-serif;
-  font-size: 4rem;
-  margin: 0 auto;
-  cursor: pointer;
-  padding: 0 .1em;
 }
