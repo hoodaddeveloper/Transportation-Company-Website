@@ -27,6 +27,38 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        .btn-hover {
+            width: 150px;
+            height: 43px;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            background-size: 300% 100%;
+
+            moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+        }
+
+        .btn-hover:hover {
+            background-position: 100% 0;
+            moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+        }
+
+        .btn-hover:focus {
+            outline: none;
+        }
+
+        .btn-hover.color {
+            background-image: linear-gradient(to right, #7bb1e0, #7bb1e0, #7bb1e0, #edcc4d, #7bb1e0, #7bb1e0, #7bb1e0);
+            box-shadow: 0 4px 15px 0 #7bb1e0;
+        }
+    </style>
 </head>
 
 <body>
@@ -72,11 +104,7 @@
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 pt-4"
         style="z-index: 2; margin-bottom: -20px;">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <div
-                class=".ripple-background circle xxlarge shade1 circle.xlarge.shade2 circle.large.shade3 circle.mediun.shade4 circle.small.shade5">
-                <img src="img/thumbnail.png" alt="Site Logo" style="height: 100px; width: 300px;">
-            </div>
-
+            <img src="img/thumbnail.png" alt="Site Logo" style="height: 100px; width: 300px;">
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
