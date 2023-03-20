@@ -130,13 +130,44 @@
         visibility: hidden;
         transition: .5s;
     }
-    
+
     .navbar .nav-item:hover .dropdown-menu {
         top: 100%;
         visibility: visible;
         transition: .5s;
         opacity: 1;
     }
+}
+
+.btn-hover {
+    width: 150px;
+    height: 43px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    background-size: 300% 100%;
+
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color {
+    background-image: linear-gradient(to right, #7bb1e0, #7bb1e0, #7bb1e0, #edcc4d, #7bb1e0, #7bb1e0, #7bb1e0);
+    box-shadow: 0 4px 15px 0 #7bb1e0;
 }
 
 /*** Header ***/
@@ -535,7 +566,7 @@
 
 .waves-3 {
     width: 100%;
-    height: 4vh;
+    height: 5vh;
     z-index: 2;
     position: relative;
     transform: rotate(180deg);

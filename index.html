@@ -28,41 +28,13 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <style>
-        .btn-hover {
-            width: 150px;
-            height: 43px;
-            border: none;
-            text-align: center;
-            background-size: 300% 100%;
-
-            moz-transition: all .4s ease-in-out;
-            -o-transition: all .4s ease-in-out;
-            -webkit-transition: all .4s ease-in-out;
-            transition: all .4s ease-in-out;
-        }
-
-        .btn-hover:hover {
-            background-position: 100% 0;
-            moz-transition: all .4s ease-in-out;
-            -o-transition: all .4s ease-in-out;
-            -webkit-transition: all .4s ease-in-out;
-            transition: all .4s ease-in-out;
-        }
-
-        .btn-hover:focus {
-            outline: none;
-        }
-
-        .btn-hover.color {
-            background-image: linear-gradient(to right, #7bb1e0, #7bb1e0, #7bb1e0, #edcc4d, #7bb1e0, #7bb1e0, #7bb1e0);
-            box-shadow: 0 4px 15px 0 #7bb1e0;
-        }
+    
     </style>
 </head>
 
 <body>
     <!-- Wave Container Start -->
-    <div class="waveHeader-2" style="transform: rotate(180deg); z-index: 1; margin-top: -30px;">
+    <div class="waveHeader-2" style="transform: rotate(180deg); z-index: 1; margin-top: -40px;">
         <div>
             <svg class="waves-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
@@ -71,8 +43,7 @@
                         d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
                 </defs>
                 <g class="parallax">
-                    <use xlink:href="#gentle-wave" x="48" y="9" fill="#7bb1e0" />
-                    <use xlink:href="#gentle-wave" x="48" y="9" fill="#6d9dc7" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="#7bb1e0" />
                 </g>
             </svg>
         </div>
@@ -87,11 +58,12 @@
                         d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
                 </defs>
                 <g class="parallax">
-                    <use xlink:href="#gentle-wave" x="48" y="9" fill="#edcc4d" />
-                    <use xlink:href="#gentle-wave" x="48" y="9" fill="#e6b702" />
-                    <use xlink:href="#gentle-wave" x="48" y="9" fill="#edcc4d" />
-                    <use xlink:href="#gentle-wave" x="48" y="9" fill="#7bb1e0" />
-                    <use xlink:href="#gentle-wave" x="48" y="9" fill="#6d9dc7" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="#edcc4d" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="#edcc4d" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="#e6b702" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="#e6b702" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="#7bb1e0" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="#6d9dc7" />
                 </g>
             </svg>
         </div>
@@ -100,10 +72,14 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0"
-        style="margin-top: -20px; margin-bottom: -30px; z-index: 2;">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 pt-4"
+        style="z-index: 2; margin-bottom: -20px;">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <img src="img/thumbnail.jpg" alt="">
+            <div
+                class=".ripple-background circle xxlarge shade1 circle.xlarge.shade2 circle.large.shade3 circle.mediun.shade4 circle.small.shade5">
+                <img src="img/thumbnail.png" alt="Site Logo" style="height: 100px; width: 300px;">
+            </div>
+
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -134,8 +110,7 @@
                 <a href="about.html" class="nav-item nav-link btn-hover color">TIPS</a>
                 <a href="service.html" class="nav-item nav-link btn-hover color">KONTAKT</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle btn-hover color"
-                        data-bs-toggle="dropdown">IMPRESSUM</a>
+                    <a href="#" class="nav-link dropdown-toggle btn-hover color" data-bs-toggle="dropdown">IMPRESSUM</a>
                     <div class="dropdown-menu fade-up m-0">
                         <a href="feature.html" class="dropdown-item">Download AGB</a>
                         <a href="feature.html" class="dropdown-item">Datenschutzverordnung</a>
