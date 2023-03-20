@@ -488,9 +488,12 @@
 .waves-1 {
     width: 100%;
     height: 4vh;
-    z-index: 3;
+    z-index: 5;
     position: relative;
     transform: rotate(180deg);
+    /* Fix for safari gap */
+    min-height: 20px;
+    max-height: 40px;
 }
 
 .waves-2 {
