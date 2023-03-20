@@ -27,24 +27,6 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <style>
-        .hoverx {
-            border: 6px solid;
-            border-radius: 10px;
-            border-image: repeating-linear-gradient(135deg, #6d9dc7 0 10px, #e6b702 0 20px, #7bb1e0 0 30px) 8;
-            -webkit-mask:
-                conic-gradient(from 180deg at top 8px right 8px, #0000 90deg, #000 0) var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat,
-                conic-gradient(at bottom 8px left 8px, #0000 90deg, #000 0) 0 var(--_i, 200%)/var(--_i, 8px) 200% border-box no-repeat,
-                linear-gradient(#000 0 0) padding-box no-repeat;
-            transition: .3s, -webkit-mask-position .3s .3s;
-        }
-
-        .hoverx:hover {
-            --_i: 100%;
-            color: #CC333F;
-            transition: .3s, -webkit-mask-size .3s .3s;
-        }
-    </style>
 </head>
 
 <body>
@@ -97,7 +79,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active hoverx">START</a>
+                <a href="index.html" class="nav-item nav-link active">START</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">UMZÜGE</a>
                     <div class="dropdown-menu fade-up m-0">
