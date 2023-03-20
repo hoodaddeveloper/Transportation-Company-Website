@@ -27,6 +27,37 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        .btn-hover {
+            width: 150px;
+            height: 43px;
+            border: none;
+            text-align: center;
+            background-size: 300% 100%;
+
+            moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+        }
+
+        .btn-hover:hover {
+            background-position: 100% 0;
+            moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+        }
+
+        .btn-hover:focus {
+            outline: none;
+        }
+
+        .btn-hover.color {
+            background-image: linear-gradient(to right, #7bb1e0, #7bb1e0, #7bb1e0, #edcc4d, #7bb1e0, #7bb1e0, #7bb1e0);
+            box-shadow: 0 4px 15px 0 #7bb1e0;
+        }
+    </style>
 </head>
 
 <body>
@@ -79,9 +110,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">START</a>
+                <a href="index.html" class="nav-item nav-link btn-hover color">START</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">UMZÜGE</a>
+                    <a href="#" class="nav-link dropdown-toggle btn-hover color" data-bs-toggle="dropdown">UMZÜGE</a>
                     <div class="dropdown-menu fade-up m-0">
                         <a href="feature.html" class="dropdown-item">Angebot</a>
                         <a href="feature.html" class="dropdown-item">Planung</a>
@@ -89,7 +120,7 @@
                     </div>
                 </div>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">SERVICE</a>
+                    <a href="#" class="nav-link dropdown-toggle btn-hover color" data-bs-toggle="dropdown">SERVICE</a>
                     <div class="dropdown-menu fade-up m-0">
                         <a href="feature.html" class="dropdown-item">Technik</a>
                         <a href="feature.html" class="dropdown-item">Teampower</a>
@@ -100,18 +131,17 @@
                         <a href="feature.html" class="dropdown-item">Was wir sonst für Sie tun</a>
                     </div>
                 </div>
-                <a href="about.html" class="nav-item nav-link">TIPS</a>
-                <a href="service.html" class="nav-item nav-link">KONTAKT</a>
+                <a href="about.html" class="nav-item nav-link btn-hover color">TIPS</a>
+                <a href="service.html" class="nav-item nav-link btn-hover color">KONTAKT</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">IMPRESSUM</a>
+                    <a href="#" class="nav-link dropdown-toggle btn-hover color"
+                        data-bs-toggle="dropdown">IMPRESSUM</a>
                     <div class="dropdown-menu fade-up m-0">
                         <a href="feature.html" class="dropdown-item">Download AGB</a>
                         <a href="feature.html" class="dropdown-item">Datenschutzverordnung</a>
                     </div>
                 </div>
             </div>
-            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+012 345 6789
-            </h4>
         </div>
     </nav>
     <!-- Navbar End -->

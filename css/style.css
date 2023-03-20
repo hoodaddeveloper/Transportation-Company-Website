@@ -67,7 +67,6 @@
 .navbar-light .navbar-nav .nav-link {
     position: relative;
     margin-right: 30px;
-    padding: 5px 10px;
     color: #FFFFFF;
     font-size: 18px;
     text-transform: uppercase;
@@ -76,7 +75,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: #fff;
 }
 
 @media (max-width: 991.98px) {
@@ -96,7 +95,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: var(--dark);
+    color: white;
     font-weight: 500;
 }
 
@@ -115,6 +114,7 @@
         left: 50%;
         background: #FFFFFF;
         transition: .5s;
+        border-bottom-left-radius: 30px;
     }
 
     .navbar-light .navbar-nav .nav-link.nav-contact::before {
@@ -130,7 +130,7 @@
         visibility: hidden;
         transition: .5s;
     }
-
+    
     .navbar .nav-item:hover .dropdown-menu {
         top: 100%;
         visibility: visible;
