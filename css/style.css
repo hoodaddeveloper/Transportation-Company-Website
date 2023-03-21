@@ -174,18 +174,18 @@
 }
 
 .logo {
+    top: 10%;
     left: 1%;
-    top: 4%;
     width: 300px;
     height: 100px;
     position: absolute;
 }
 
 .waveImg {
-    left: -3%;
-    top: -26.5%;
-    width: 500px;
-    height: 500px;
+    left: -1%;
+    top: -122.5%;
+    width: 1610px;
+    height: 2000px;
     position: fixed;
 }
 
@@ -512,8 +512,8 @@
     position: relative;
     transform: rotate(180deg);
     /* Fix for safari gap */
-    min-height: 50px;
-    max-height: 70px;
+    min-height: 62px;
+    max-height: 80px;
 }
 
 .waves-2 {
