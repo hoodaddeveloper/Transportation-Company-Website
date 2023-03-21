@@ -172,12 +172,6 @@
     box-shadow: 0 4px 15px 0 #7bb1e0;
 }
 
-.logo {
-    -webkit-box-shadow: 5px 5px 50px 26px #a9d0f4;
-    -webkit-box-shadow: inset 0px 0px 42px 12px #a9d0f4;
-    box-shadow: 5px 5px 50px 26px #a9d0f4, inset 0px 0px 42px 12px #a9d0f4;;
-}
-
 /*** Header ***/
 
 @media (max-width: 768px) {
@@ -247,6 +241,7 @@
 
 
 /*** About ***/
+
 @media (min-width: 992px) {
     .container.about {
         max-width: 100% !important;
@@ -271,6 +266,7 @@
 
 
 /*** Feature ***/
+
 @media (min-width: 992px) {
     .container.feature {
         max-width: 100% !important;
@@ -295,6 +291,7 @@
 
 
 /*** Service, Price & Team ***/
+
 .service-item,
 .price-item,
 .team-item {
@@ -376,6 +373,7 @@
 
 
 /*** Testimonial ***/
+
 .testimonial-carousel .owl-item .testimonial-item {
     position: relative;
     transition: .5s;
@@ -411,6 +409,7 @@
 
 
 /*** Contact ***/
+
 @media (min-width: 992px) {
     .container.contact-page {
         max-width: 100% !important;
@@ -492,7 +491,7 @@
     color: var(--light);
 }
 
-/* Wave Animations */
+/*** Wave Animations ***/
 
 .waves-1 {
     width: 100%;
@@ -573,7 +572,7 @@
     }
 }
 
-/* Shrinking for mobile */
+/*** Shrinking for mobile ***/
 
 @media (max-width: 768px) {
     .waves-1 {
