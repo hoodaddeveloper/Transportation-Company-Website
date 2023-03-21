@@ -19,6 +19,7 @@
 }
 
 /*** Button ***/
+
 .btn {
     font-weight: 600;
     transition: .5s;
@@ -55,6 +56,7 @@
 }
 
 /*** Navbar ***/
+
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
@@ -170,7 +172,14 @@
     box-shadow: 0 4px 15px 0 #7bb1e0;
 }
 
+.logo {
+    -webkit-box-shadow: 5px 5px 50px 26px #a9d0f4;
+    -webkit-box-shadow: inset 0px 0px 42px 12px #a9d0f4;
+    box-shadow: 5px 5px 50px 26px #a9d0f4, inset 0px 0px 42px 12px #a9d0f4;;
+}
+
 /*** Header ***/
+
 @media (max-width: 768px) {
     .header-carousel .owl-carousel-item {
         position: relative;
@@ -424,8 +433,8 @@
     }
 }
 
-
 /*** Footer ***/
+
 .footer {
     background: #06031580;
     background-size: cover;
@@ -488,7 +497,7 @@
 .waves-1 {
     width: 100%;
     height: 4vh;
-    z-index: 5;
+    z-index: 3;
     position: relative;
     transform: rotate(180deg);
     /* Fix for safari gap */
@@ -527,6 +536,30 @@
 
 .parallax use:nth-child(4) {
     animation-delay: -5s;
+    animation-duration: 20s;
+}
+
+.parallax-2 use {
+    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallax-2 use:nth-child(1) {
+    animation-delay: -4s;
+    animation-duration: 7s;
+}
+
+.parallax-2 use:nth-child(2) {
+    animation-delay: -6s;
+    animation-duration: 10s;
+}
+
+.parallax-2 use:nth-child(3) {
+    animation-delay: -8s;
+    animation-duration: 13s;
+}
+
+.parallax-2 use:nth-child(4) {
+    animation-delay: -10s;
     animation-duration: 20s;
 }
 
