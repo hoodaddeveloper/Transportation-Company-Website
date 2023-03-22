@@ -256,6 +256,13 @@
     color: var(--light);
 }
 
+.slideInDown {
+    background: #FFFFFF;
+    background: linear-gradient(to bottom, #FFFFFF 20%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /*** About ***/
 
 @media (min-width: 992px) {
@@ -447,8 +454,8 @@
 /*** Footer ***/
 
 .footer {
-    background-size: cover;
     overflow: hidden;
+    background-size: cover;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
 
