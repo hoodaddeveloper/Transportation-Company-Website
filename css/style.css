@@ -477,15 +477,15 @@
 }
 
 .footer .btn.btn-link {
+    padding: 0;
     display: block;
     margin-bottom: 5px;
-    padding: 0;
     text-align: left;
     color: #FFFFFF;
     font-size: 15px;
     font-weight: normal;
-    text-transform: capitalize;
     transition: .3s;
+    text-transform: capitalize;
 }
 
 .footer .btn.btn-link::before {
@@ -497,18 +497,14 @@
 }
 
 .footer .btn.btn-link:hover {
-    letter-spacing: 1px;
     box-shadow: none;
+    letter-spacing: 3px;
 }
 
 .footer .copyright {
     padding: 25px 0;
     font-size: 15px;
     border-top: 1px solid rgba(256, 256, 256, .1);
-}
-
-.footer .copyright a {
-    color: var(--light);
 }
 
 #stars {
