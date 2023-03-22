@@ -600,6 +600,17 @@
 }
 
 .waves-2 {
+    z-index: 8;
+    width: 100%;
+    height: 5vh;
+    position: relative;
+    transform: rotate(180deg);
+    /* Fix for safari gap */
+    min-height: 62px;
+    max-height: 80px;
+}
+
+.waves-3 {
     width: 100%;
     height: 4vh;
     position: relative;
@@ -681,7 +692,7 @@
 }
 
 @media (max-width: 768px) {
-    .waves-2 {
+    .waves-3 {
         height: 40px;
         min-height: 40px;
     }
