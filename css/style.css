@@ -586,9 +586,9 @@
 /*** Wave Animations ***/
 
 .waves-1 {
+    z-index: 8;
     width: 100%;
     height: 5vh;
-    z-index: 8;
     position: relative;
     transform: rotate(180deg);
     /* Fix for safari gap */
