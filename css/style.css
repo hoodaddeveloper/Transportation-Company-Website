@@ -260,7 +260,7 @@
 
 .slideInDown {
     background: #FFFFFF;
-    background: linear-gradient(to bottom, #FFFFFF 40%, #000000 100%);
+    background: linear-gradient(to bottom, #FFFFFF 20%, #273968 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
