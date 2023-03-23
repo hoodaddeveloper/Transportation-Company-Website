@@ -5,6 +5,8 @@ $secondary: #355a8d;
 $light: #e2eaf6;
 $dark: #000000;
 
+@import "bootstrap/scss/bootstrap";
+
 $font-family-base: 'Inter', sans-serif;
 
 $headings-font-family: 'Roboto', sans-serif;
@@ -24,5 +26,3 @@ $border-radius: 0px;
 $link-decoration: none;
 
 $enable-negative-margins: true;
-
-@import "bootstrap/scss/bootstrap";
