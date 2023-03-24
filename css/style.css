@@ -72,8 +72,8 @@
     margin-right: 30px;
     color: #FFFFFF;
     font-size: 18px;
-    text-transform: uppercase;
     outline: none;
+    text-transform: uppercase;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -109,14 +109,14 @@
 
 @media (min-width: 992px) {
     .navbar-light .navbar-nav .nav-link::before {
-        position: absolute;
-        content: "";
         width: 0;
-        height: 5px;
         top: -6px;
         left: 50%;
-        background: #FFFFFF;
+        height: 5px;
+        content: "";
         transition: .5s;
+        position: absolute;
+        background: #FFFFFF;
         border-bottom-left-radius: 30px;
     }
 
@@ -125,21 +125,25 @@
     }
 
     .navbar .nav-item .dropdown-menu {
-        display: block;
-        border: none;
-        margin-top: 0;
         top: 150%;
         opacity: 0;
-        visibility: hidden;
+        border: none;
+        margin-top: 0;
+        display: block;
         transition: .5s;
+        visibility: hidden;
     }
 
     .navbar .nav-item:hover .dropdown-menu {
         top: 100%;
-        visibility: visible;
-        transition: .5s;
         opacity: 1;
+        transition: .5s;
+        visibility: visible;
     }
+}
+
+#navbarCollapse>div>div>div>a:active {
+    background: #355a8d !important;
 }
 
 .btn-hover {
@@ -149,7 +153,6 @@
     border-radius: 5px;
     text-align: center;
     background-size: 300% 100%;
-
     moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
