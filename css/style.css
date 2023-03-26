@@ -412,7 +412,7 @@
     background: var(--secondary);
 }
 
-/*** Testimonial ***/
+/*** Kundenbewertung ***/
 
 .testimonial-carousel .owl-item .testimonial-item {
     position: relative;
@@ -447,7 +447,7 @@
     border-color: var(--primary);
 }
 
-/*** Contact ***/
+/*** Kontakt ***/
 
 @media (min-width: 992px) {
     .container.contact-page {
@@ -469,6 +469,30 @@
     .contact-page .contact-form {
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
+}
+
+body>div.container.overflow-hidden.py-5.px-lg-0>div>div>div.col-md-6.contact-form.wow.fadeInLeft>div.bg-light.mt-4.p-4 {
+    background: #e2eaf6 !important;
+}
+
+.form-control:focus {
+    outline: 0;
+    color: #555;
+    background-color: #fff;
+    border-color: #355a8d !important;
+    box-shadow: 0 0 0 .25rem rgba(255, 62, 65, 0.25);
+}
+
+.form-select:focus {
+    outline: 0;
+    border-color: #355a8d !important;
+    box-shadow: 0 0 0 .25rem rgba(255, 62, 65, 0.25)
+}
+
+.form-check-input:focus {
+    outline: 0;
+    border-color: #355a8d !important;
+    box-shadow: 0 0 0 .25rem rgba(255, 62, 65, 0.25);
 }
 
 /*** Footer ***/
