@@ -412,6 +412,10 @@
     background: var(--secondary);
 }
 
+body > div.container-xxl.py-5 > div > div > div.col-lg-7 > div {
+    background: #e2eaf6 !important;
+}
+
 /*** Kundenbewertung ***/
 
 .testimonial-carousel .owl-item .testimonial-item {
