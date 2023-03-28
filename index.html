@@ -28,6 +28,44 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <style>
+        .block {
+            position: relative;
+            background: #fff;
+        }
+
+        .block:before,
+        .block:after {
+            top: -2px;
+            left: -2px;
+            z-index: -1;
+            content: '';
+            position: absolute;
+            background: linear-gradient(45deg, #e2eaf6, #355a8d, #DC911A, #273968, #e2eaf6,
+                    #355a8d, #DC911A, #273968);
+            background-size: 400%;
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            animation: steam 20s linear infinite;
+        }
+
+        @keyframes steam {
+            0% {
+                background-position: 0 0;
+            }
+
+            50% {
+                background-position: 400% 0;
+            }
+
+            100% {
+                background-position: 0 0;
+            }
+        }
+
+        .block:after {
+            filter: blur(50px);
+        }
+
         .mycolors {
             color: #ffffff;
             color: #6E6E6E;
@@ -200,7 +238,7 @@
                 <h1 class="mb-5" style="color: #355a8d;">Was können wir für Sie tun?</h1>
             </div>
             <div class="row g-4">
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-md-6 col-lg-4 wow fadeInUp block" data-wow-delay="0.3s">
                     <div class="service-item p-4">
                         <div class="overflow-hidden mb-4">
                             <img class="img-fluid" src="img/service-1.jpg" alt="">
