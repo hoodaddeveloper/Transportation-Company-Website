@@ -412,7 +412,7 @@
     background: var(--secondary);
 }
 
-body > div.container-xxl.py-5 > div > div > div.col-lg-7 > div {
+body>div.container-xxl.py-5>div>div>div.col-lg-7>div {
     background: #e2eaf6 !important;
 }
 
@@ -539,9 +539,9 @@ body>div.container.overflow-hidden.py-5.px-lg-0>div>div>div.col-md-6.contact-for
 .footer .btn.btn-link::before {
     position: relative;
     content: "\f105";
-    font-family: "Font Awesome 5 Free";
     font-weight: 900;
     margin-right: 10px;
+    font-family: "Font Awesome 5 Free";
 }
 
 .footer .btn.btn-link:hover {
@@ -772,8 +772,8 @@ body>div.container.overflow-hidden.py-5.px-lg-0>div>div>div.col-md-6.contact-for
 
 .borderAnimation {
     margin: 0;
-    padding: 1rem;
     color: white;
+    padding: 0.5rem;
     justify-content: center;
 }
 
@@ -782,12 +782,12 @@ body>div.container.overflow-hidden.py-5.px-lg-0>div>div>div.col-md-6.contact-for
     --gradY: 50%;
     --gradX: 100%;
     --angle: 90deg;
-    --c1: rgba(168, 239, 255, 1);
+    --c1: #38495a;
     --c2: rgba(168, 239, 255, 0.1);
 }
 
 .boxx {
-    border: 0.5rem solid;
+    border: 0.4rem solid;
     border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
     animation: borderRotate var(--d) linear infinite forwards;
 }
