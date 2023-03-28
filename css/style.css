@@ -188,25 +188,25 @@
 
 .waveImg {
     left: -3%;
-    top: -25.5%;
+    top: -214.5%;
     width: 500px;
     height: 500px;
-    position: fixed;
+    position: absolute;
 }
 
 /*** Header ***/
 
 @media (max-width: 768px) {
     .header-carousel .owl-carousel-item {
-        position: relative;
         min-height: 500px;
+        position: relative;
     }
 
     .header-carousel .owl-carousel-item img {
-        position: absolute;
         width: 100%;
         height: 100%;
         object-fit: cover;
+        position: absolute;
     }
 
     .header-carousel .owl-carousel-item h5,
@@ -222,12 +222,12 @@
 }
 
 .header-carousel .owl-nav {
-    position: absolute;
     top: 50%;
     right: 8%;
-    transform: translateY(-50%);
     display: flex;
+    position: absolute;
     flex-direction: column;
+    transform: translateY(-50%);
 }
 
 .header-carousel .owl-nav .owl-prev,
