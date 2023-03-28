@@ -178,7 +178,7 @@
 
 .logo {
     top: 15%;
-    left: 4%;
+    left: 3%;
     min-width: 200px;
     min-height: 80px;
     max-width: 250px;
@@ -188,7 +188,7 @@
 
 .waveImg {
     left: -3%;
-    top: -214.5%;
+    top: -200.5%;
     width: 500px;
     height: 500px;
     position: absolute;
