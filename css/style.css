@@ -782,7 +782,7 @@ body>div.container.overflow-hidden.py-5.px-lg-0>div>div>div.col-md-6.contact-for
     --gradY: 50%;
     --gradX: 100%;
     --angle: 90deg;
-    --c1: #38495a;
+    --c1: #fff;
     --c2: rgba(168, 239, 255, 0.1);
 }
 
