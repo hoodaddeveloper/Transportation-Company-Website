@@ -1,10 +1,10 @@
 /********** Template CSS **********/
 
 :root {
+    --dark: #000000;
+    --light: #e2eaf6;
     --primary: #273968;
     --secondary: #355a8d;
-    --light: #e2eaf6;
-    --dark: #000000;
 }
 
 .fw-medium {
@@ -12,18 +12,18 @@
 }
 
 .back-to-top {
-    position: fixed;
-    display: none;
     right: 45px;
-    bottom: 45px;
     z-index: 99;
+    bottom: 45px;
+    display: none;
+    position: fixed;
 }
 
 /*** Button ***/
 
 .btn {
-    font-weight: 600;
     transition: .5s;
+    font-weight: 600;
 }
 
 .btn.btn-primary,
@@ -52,8 +52,8 @@
     padding: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
     font-weight: normal;
+    justify-content: center;
 }
 
 /*** Navbar ***/
@@ -61,18 +61,18 @@
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
-    font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    vertical-align: middle;
     margin-left: 8px;
+    vertical-align: middle;
+    font-family: "Font Awesome 5 Free";
 }
 
 .navbar-light .navbar-nav .nav-link {
+    outline: none;
+    font-size: 18px;
+    color: #FFFFFF;
     position: relative;
     margin-right: 30px;
-    color: #FFFFFF;
-    font-size: 18px;
-    outline: none;
     text-transform: uppercase;
 }
 
@@ -153,18 +153,18 @@
     border-radius: 5px;
     text-align: center;
     background-size: 300% 100%;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
 }
 
 .btn-hover:hover {
     background-position: 100% 0;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
 }
 
 .btn-hover:focus {
@@ -172,8 +172,8 @@
 }
 
 .btn-hover.color {
-    background-image: linear-gradient(to right, #355a8d, #355a8d, #355a8d, #DC911A, #355a8d, #355a8d, #355a8d);
     box-shadow: 0 4px 15px 0 #355a8d;
+    background-image: linear-gradient(to right, #355a8d, #355a8d, #355a8d, #DC911A, #355a8d, #355a8d, #355a8d);
 }
 
 .logo {
@@ -232,18 +232,18 @@
 
 .header-carousel .owl-nav .owl-prev,
 .header-carousel .owl-nav .owl-next {
-    margin: 7px 0;
     width: 45px;
     height: 45px;
+    margin: 7px 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
-    background: transparent;
-    border: 1px solid #FFFFFF;
-    border-radius: 45px;
     font-size: 22px;
     transition: .5s;
+    color: #FFFFFF;
+    align-items: center;
+    border-radius: 45px;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid #FFFFFF;
 }
 
 .header-carousel .owl-nav .owl-prev:hover,
@@ -263,9 +263,9 @@
 
 .slideInDown {
     background: #FFFFFF;
-    background: linear-gradient(to bottom, #FFFFFF 20%, #273968 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background: linear-gradient(to bottom, #FFFFFF 20%, #273968 100%);
 }
 
 /*** Accordion ***/
@@ -352,10 +352,10 @@
 .service-item a.btn-slide,
 .price-item a.btn-slide,
 .team-item div.btn-slide {
+    font-size: 0;
+    overflow: hidden;
     position: relative;
     display: inline-block;
-    overflow: hidden;
-    font-size: 0;
 }
 
 .service-item a.btn-slide i,
