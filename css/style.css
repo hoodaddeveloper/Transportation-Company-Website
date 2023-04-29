@@ -253,8 +253,8 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/carousel-1.jpg) center center no-repeat;
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
@@ -263,9 +263,9 @@
 
 .slideInDown {
     background: #FFFFFF;
+    background: linear-gradient(to bottom, #FFFFFF 20%, #273968 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(to bottom, #FFFFFF 20%, #273968 100%);
 }
 
 /*** Accordion ***/
