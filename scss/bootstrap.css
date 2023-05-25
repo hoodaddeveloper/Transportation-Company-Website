@@ -498,9 +498,9 @@ progress {
 }
 
 .display-1 {
-  font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
   line-height: 1.2;
+  font-size: calc(1.625rem + 4.5vw);
 }
 
 @media (min-width: 1200px) {
@@ -510,9 +510,9 @@ progress {
 }
 
 .display-2 {
-  font-size: calc(1.575rem + 3.9vw);
   font-weight: 300;
   line-height: 1.2;
+  font-size: calc(1.575rem + 3.9vw);
 }
 
 @media (min-width: 1200px) {
@@ -522,9 +522,9 @@ progress {
 }
 
 .display-3 {
-  font-size: calc(1.525rem + 3.3vw);
   font-weight: 300;
   line-height: 1.2;
+  font-size: calc(1.525rem + 3.3vw);
 }
 
 @media (min-width: 1200px) {
@@ -534,9 +534,9 @@ progress {
 }
 
 .display-4 {
-  font-size: calc(1.475rem + 2.7vw);
   font-weight: 300;
   line-height: 1.2;
+  font-size: calc(1.475rem + 2.7vw);
 }
 
 @media (min-width: 1200px) {
@@ -546,9 +546,9 @@ progress {
 }
 
 .display-5 {
-  font-size: calc(1.425rem + 2.1vw);
   font-weight: 300;
   line-height: 1.2;
+  font-size: calc(1.425rem + 2.1vw);
 }
 
 @media (min-width: 1200px) {
@@ -558,9 +558,9 @@ progress {
 }
 
 .display-6 {
-  font-size: calc(1.375rem + 1.5vw);
   font-weight: 300;
   line-height: 1.2;
+  font-size: calc(1.375rem + 1.5vw);
 }
 
 @media (min-width: 1200px) {
@@ -593,8 +593,8 @@ progress {
 }
 
 .blockquote {
-  margin-bottom: 1rem;
   font-size: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .blockquote> :last-child {
@@ -602,10 +602,10 @@ progress {
 }
 
 .blockquote-footer {
-  margin-top: -1rem;
-  margin-bottom: 1rem;
-  font-size: 0.875em;
   color: #6c757d;
+  margin-top: -1rem;
+  font-size: 0.875em;
+  margin-bottom: 1rem;
 }
 
 .blockquote-footer::before {
@@ -613,8 +613,8 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
 }
 
 .img-thumbnail {
