@@ -618,12 +618,12 @@ progress {
 }
 
 .img-thumbnail {
+  height: auto;
+  max-width: 100%;
   padding: 0.25rem;
+  border-radius: 0.25rem;
   background-color: #fff;
   border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
-  max-width: 100%;
-  height: auto;
 }
 
 .figure {
@@ -631,13 +631,13 @@ progress {
 }
 
 .figure-img {
-  margin-bottom: 0.5rem;
   line-height: 1;
+  margin-bottom: 0.5rem;
 }
 
 .figure-caption {
-  font-size: 0.875em;
   color: #6c757d;
+  font-size: 0.875em;
 }
 
 .container,
@@ -728,18 +728,18 @@ progress {
 }
 
 .row-cols-auto>* {
-  flex: 0 0 auto;
   width: auto;
+  flex: 0 0 auto;
 }
 
 .row-cols-1>* {
-  flex: 0 0 auto;
   width: 100%;
+  flex: 0 0 auto;
 }
 
 .row-cols-2>* {
-  flex: 0 0 auto;
   width: 50%;
+  flex: 0 0 auto;
 }
 
 .row-cols-3>* {
@@ -748,13 +748,13 @@ progress {
 }
 
 .row-cols-4>* {
-  flex: 0 0 auto;
   width: 25%;
+  flex: 0 0 auto;
 }
 
 .row-cols-5>* {
-  flex: 0 0 auto;
   width: 20%;
+  flex: 0 0 auto;
 }
 
 .row-cols-6>* {
@@ -763,8 +763,8 @@ progress {
 }
 
 .col-auto {
-  flex: 0 0 auto;
   width: auto;
+  flex: 0 0 auto;
 }
 
 .col-1 {
@@ -778,8 +778,8 @@ progress {
 }
 
 .col-3 {
-  flex: 0 0 auto;
   width: 25%;
+  flex: 0 0 auto;
 }
 
 .col-4 {
@@ -793,8 +793,8 @@ progress {
 }
 
 .col-6 {
-  flex: 0 0 auto;
   width: 50%;
+  flex: 0 0 auto;
 }
 
 .col-7 {
@@ -808,8 +808,8 @@ progress {
 }
 
 .col-9 {
-  flex: 0 0 auto;
   width: 75%;
+  flex: 0 0 auto;
 }
 
 .col-10 {
